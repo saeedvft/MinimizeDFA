@@ -16,10 +16,6 @@ The minimization algorithm uses **equivalence class refinement**:
 2. **Refinement**: The algorithm iteratively splits the states into smaller partitions based on the behavior of the DFA transitions for each input symbol.
 3. **Minimized DFA**: States that behave identically are merged, resulting in a minimized DFA.
 
-## File Structure
-.
-├── main.cpp        # Main implementation of the DFA minimization algorithm
-└── README.md       # This README file
 
 ## Getting Started
 
